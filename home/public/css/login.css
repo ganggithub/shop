@@ -1,0 +1,182 @@
+.login{
+	width:100%;
+}
+.content{
+width:900px;margin:0 auto;padding: 27px 0px 33px;
+min-height: 580px;}
+.login{margin-top:40px;}
+.login_left{width: 400px;
+padding: 20px 0px 0px 40px;
+float: left;
+display: inline;
+}
+.login_right{width: 322px;
+float: right;
+display: inline;
+border: 1px solid #DCDCDC;
+padding: 0px 0px 30px 38px;
+}
+.lright_title{
+	height: 70px;
+margin-left: -38px;
+}
+.lright_title a{
+	height: 43px;
+line-height: 42px;
+text-align: center;
+font-size: 14px;
+font-weight: 700;
+color: #AAA;
+}
+.lright_title .mod {
+    width: 50%;
+    border-bottom: 1px solid #CCC;
+}
+.lright_title .lo_mod {
+    display: block;
+    width: 119px;
+    margin: 10px 30px 0px;
+}
+.lright_title .tab_on {
+    color: #333;
+    height: 41px;
+    border-bottom: 2px solid #FF4066;
+}
+.lright_title .eb_mod {
+    display: block;
+    width: 119px;
+    margin: 10px 30px 0px;
+}
+.lg_form .pdt15 {
+    margin-bottom: 15px;
+}
+.pwd_text {
+    background: none repeat scroll 0% 0% transparent !important;
+    border: 1px solid #CCC;
+    height: 28px;
+    width: 269px;
+    padding: 0px 6px;
+}
+.lg_remember{
+padding-top:20px;clear:both;}
+.lg_remember span {
+    color: #999;
+    cursor: pointer;
+}
+.lg_remember .findpwd {
+    margin-left: 130px;
+    color: #959595;
+}
+.lg_login {
+    padding-top: 10px;
+}
+.clearfix {
+}
+.lg_login .sub {
+    display: inline;
+    float: left;
+    border: medium none;
+    width: 285px;
+    height: 30px;
+    background: none repeat scroll 0% 0% #FF4066;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #FFF;
+}
+.lg_reg {padding-top:10px;}
+.lg_reg a {
+    text-decoration: underline;
+    color: #959595;
+}
+.lg_reg .regist {
+    margin-left: 150px;
+}
+.ot_login {
+    margin-top: 30px;
+}
+.ot_login span {
+    color: #999;
+}
+.ot_login .ot_btn {
+    padding-top: 6px;
+}
+.ot_login .ot_btn a {
+    float: left;
+    display: inline;
+    margin-right: 6px;
+}
+.inbord{border-color:#CFCFCF; color:#999;}
+.country_select {
+    float: left;
+   
+    height: 30px;
+    margin-right: 10px;
+    line-height: 1.5;
+    border: 1px solid #C4C4C4;
+    border-radius: 0px;
+    color: #333;
+    font-size: 14px;
+    padding: 4px 12px 4px 10px;
+    -moz-appearance: none;
+    outline: 0px none;
+	text-align:center;
+    
+}
+.short_text {
+    float: left;
+    background: none repeat transparent !important;
+    border: 1px solid #CCC;
+    height: 28px;
+    width: 203px;
+    padding: 0px 6px;
+}
+.tel{
+	padding-bottom:30px;
+	margin-bottom:20px;
+}
+.yzm{margin-bottom: 20px;
+padding-bottom: 10px;}
+.yzm .short_text{width:155px;}
+.yzm .getCode {
+    float: left;
+    margin-left: 10px;
+    width: 105px;
+    height: 30px;
+    background: none repeat scroll 0% 0% #F55;
+    border-radius: 2px;
+    color: #FFF;
+    line-height: 30px;
+    text-align: center;
+}
+.setpwd{
+margin-top:20px;padding-top:20px;}
+.hvzh{
+display:block;clear:both;
+float:right;
+color: #666;
+margin-right: 40px;
+margin-top: 20px;
+text-decoration: underline;}
+.rgspan{display: block;
+float: left;
+height: 28px;
+line-height: 28px;
+font-size: 14px;
+padding-right: 10px;}
+.padleft{
+padding-left:28px;}
+.lg_form{}
+.user{float:left;padding-bottom:20px;
+padding-right:20px;}
+.wdi180{width:180px;}
+.padd20bo{padding-bottom:20px;}
+.width350{width:365px;}
+.red{color: #F00;
+height: 28px;
+display: block;
+float: left;
+padding-right: 5px;
+line-height: 35px;}
+.wi150{width:120px;}
+.pad15{margin-left:10px;}
+.dd{border-color:#CFCFCF; color:#999;}

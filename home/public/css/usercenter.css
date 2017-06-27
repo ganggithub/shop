@@ -1,0 +1,223 @@
+a img {
+    border: 0 none;
+    vertical-align: middle;
+}
+.header_mid {
+    border-bottom: 2px solid #F46;height:110px;
+}
+.header_mid .logo {
+    float: left;
+    width: 250px;
+    height: 60px;
+    margin-top: 28px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background: url("../images/logo11.png") no-repeat scroll 0px 0px transparent;
+}
+.hmmidd{
+
+	float: left;
+	width: 502px;
+	margin: 35px 0px 0px 132px;
+	
+}
+ .search_inner_box {
+    border: 1px solid #3A3A3A;
+	height:33px;
+}
+.selectbox {
+
+    float: left;
+    width: 70px;
+	position:relative;
+
+}
+ .selectbox .selected {
+    display: block;
+    height: 33px;
+    line-height: 32px;
+    padding-left: 12px;
+    color: #666;
+    cursor: pointer;
+    background-color: #FFF;
+    border-radius: 4px 0px 0px 4px;
+    background-image: url("../images/bglogo.png");
+    background-repeat: no-repeat;
+    background-position: 51px -17px;
+}
+ .selectbox ol {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -1px;
+    width: 70px;
+    background: none repeat scroll 0% 0% #FFF;
+    border-right: 1px solid #CECECE;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3A3A3A #CECECE #CECECE;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+}
+.selectbox li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    color: #666;
+    text-align: center;
+}
+.selectbox .current a {
+    color: #333;
+}
+ .selectbox:hover ol{display:block;}
+ .selectbox li a:hover{background:#f7f7f7;color:#666;}
+ .ts_txt {
+    float: left;
+    height: 21px;
+    line-height: 20px;
+    padding: 6px 10px 6px 6px;
+    width: 344px;
+    border: medium none;
+    color: #999;
+    font-size: 12px;
+}
+ .ts_btn {
+    float: left;
+height: 33px;
+overflow: hidden;
+width: 70px;
+background-color: #3A3A3A;
+border: medium none;
+cursor: pointer;
+color: #FFF;
+text-indent: -999em;
+background-image: url("../images/bglogo.png");
+background-repeat: no-repeat;
+background-position: 27px -57px;
+}
+.ts_hotwords {
+    margin-left: -16px;
+    white-space: nowrap;
+    width: 518px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
+ .ts_hotwords a {
+    color: #999;
+    line-height: 1;
+    padding: 0px 0px 0px 16px;
+}
+.hmright{
+margin-top: 5px;
+border: 1px solid #E9E9E9;
+border-radius: 3px;
+padding: 5px;}
+.hmright img{display:block;}
+.hmright p {
+    color: #444;
+    line-height: 1;
+    margin-top: 2px;
+}
+
+
+/*userbody*/
+.orderbody{
+	width:100%;
+}
+.ordernav{
+    width: 140px;
+    margin-right: 20px;
+    background:#FAFAFA;
+}
+.odninfo{
+padding:20px 0;}
+.odninfo img{width:100px;height:100px;vertical-align:middle;border-radius:50%;margin-left: 20px;
+margin-bottom: 20px;}
+.odname{padding:0 10px;text-align:center;}
+.odname a{font:400 12px/32px;color:#333;}
+.mu_nav {
+    padding: 0px 20px;
+}
+.myorder{
+
+}
+.ordertitle{
+	cursor:pointer;
+	border-top:1px solid #e1e1e1;
+	font: 400 16px/56px "Microsoft YaHei",sans-serif;
+	color:#333;
+}
+.orderul{
+	font: 400 12px/26px ;
+	padding-bottom: 20px;
+}
+.orderul li{line-height:28px;}
+.orderul a{
+	padding-left:20px;color:#666;
+}
+.userright{font-size: 14px;
+width: 960px;
+margin-left: 50px;
+padding-top: 35px;}
+.userheader{background:#F9F9F9;
+width: 960px;
+height: 30px;
+padding: 0px 10px 0px 20px;
+margin-bottom: 14px;}
+.userheader span{color: #FF6AA2;
+font-size: 14px;
+font-weight: 700;
+height: 30px;
+line-height: 30px;}
+.userinfo{margin-top: 22px;}
+.userinfo dl {
+    margin-bottom: 12px;
+}
+.userinfo dd {
+    float: left;
+    width: 105px;
+    text-align: right;
+    line-height: 26px;
+    vertical-align: middle;
+    color: #666;
+	font-size:16px;margin-bottom:20px;
+	
+}
+.userinfo dt{margin-bottom:20px;}
+.inputtext {
+    border: 1px solid #cfcfcf;
+    color: #666;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 5px;
+    width: 255px;
+}
+.r3{border-radius:3px;}
+.sex {line-height:30px;}
+ .inputradio{height: 24px;
+    margin-left:10px;
+    vertical-align: middle;}
+.sbut{background: none repeat scroll 0 0 #f36;
+    border: 1px solid #f36;
+    
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 22px;
+    margin: 0 auto;
+    min-width: 52px;
+    padding: 0 9px;
+    text-align: center;}
+.pleft{margin-left:5px;}
+#oduser {
+	font-size:28px !important;
+	color:#666 !important;
+	
+
+}

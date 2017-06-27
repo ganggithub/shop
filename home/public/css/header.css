@@ -1,0 +1,88 @@
+.header{width:100%;margin-bottom: 0px;
+background:#f2f2f2;
+border-bottom: 1px solid #DDD;
+height: 31px;}
+.center{width:1200px;margin:0 auto;}
+.header .home {
+    padding: 0px 20px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: top;
+    margin-left: 20px;color:#333;
+}
+.header .header_top {
+    float: right;
+}
+.header .header_top .s1 {
+    display: inline;
+    position: relative;
+    z-index: 100;
+    float: left;
+    margin: 0px 15px 0px 0px;
+    height: 31px;
+}
+.header .header_top .s1 a {
+    float: left;
+    overflow: hidden;
+    margin-top: 8px;
+    color: #666;
+    line-height: 14px;
+}
+.header .header_top .ext_mode {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    width: 90px;
+    top: 100%;
+    left: -10px;
+    background: none repeat scroll 0% 0% #EEE;
+    border-right: 1px solid #DDD;
+    border-width: medium 1px 1px;
+    border-style: none solid solid;
+    border-color: -moz-use-text-color #DDD #DDD;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-radius: 0px 0px 3px 3px;
+}
+.header .header_top .s2 {
+    margin-bottom: 2px;
+}
+.header .header_top .s2 a {
+    float: none;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0px 20px;
+    margin: 0px;
+    overflow: hidden;
+    color: #444;
+}
+.header .header_top .s2 a:hover {
+    background: none repeat scroll 0% 0% #E4E4E4;
+}
+.header .header_top .s1:hover .ext_mode {display:block;}
+.header .header_top .has_line > a {
+    padding-left: 15px;
+    border-left: 1px solid #DDD;
+}
+.header .header_top .m_num {
+    color: #F46;
+    padding-left: 5px;
+}
+.header .header_top .user_fav .ext_mode {
+    width: 100px;
+}
+.header  .header_top .cart_info {
+    display: inline-block;
+    color: #333;
+    cursor: pointer;
+}
+.header .header_top .cart_info b {
+    color: #F36;
+    padding: 0px 3px;
+    font-weight: 400;
+}
